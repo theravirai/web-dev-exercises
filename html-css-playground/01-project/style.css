@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-
-
-body{
+body {
     background-color: #EBD6FB;
 }
 
@@ -15,11 +13,18 @@ body{
     height: 800px;
     background-color: black;
     margin: 80px auto;
-    padding: 20px;
 }
 
 .box {
     width: 600px;
     height: 200px;
     background: white;
+}
+
+.box_container {
+    display: flex;
+}
+
+.box1 {
+    background-color: #E7CAFF;
 }
