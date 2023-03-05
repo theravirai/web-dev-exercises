@@ -57,9 +57,24 @@ body {
     background-color: #560E8D;
 }
 
+/* Big Screen Media Query */
 @media screen and (width>1200px) {
     .container {
         max-width: 1200px;
         margin: 80px auto;
-    }    
+    }
+}
+
+/* Big Screen Media Query */
+@media screen and (width < 1200px) and (width > 450px) {
+    .container {
+        margin: 40px auto;
+    }
+}
+
+@media screen and (width<450px) {
+    .container {
+        max-width: 1200px;
+        margin: 24px 16px;
+    }
 }
