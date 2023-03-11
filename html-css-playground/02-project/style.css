@@ -11,8 +11,7 @@ body {
 .container {
     max-width: 1200px;
     min-height: 800px;
-    margin: auto;
-    background-color: red;
+    margin: 72px auto;
 }
 
 .box {
@@ -24,7 +23,8 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 
