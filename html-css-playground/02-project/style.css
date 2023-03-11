@@ -18,9 +18,17 @@ body {
 .box {
     width: 100px;
     background-color: white;
-    height: 100px;
+    height: 269px;
 
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+}
+
+
+
 
 
 /* Big Screen Media Query */
