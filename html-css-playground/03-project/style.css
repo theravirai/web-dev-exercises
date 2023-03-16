@@ -1,29 +1,46 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    background-color: #7ADFFF;
-  }
-  
-  .container {
-    max-width: 1200px;
-    min-height: 800px;
-    margin: 72px auto;
-    padding: 0 16px;
-  }
-  
-  
-  
-  @media screen and (width > 1200px) {
-    
-  }
-  
-  @media screen and (width < 1200px) and (width > 450px) {
-    
-  }
-  
-  @media screen and (width < 450px) {
-    
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7ADFFF;
+}
+
+.container {
+  max-width: 1200px;
+  min-height: 800px;
+  margin: 52px auto;
+  padding: 0 16px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "chintu bulla hero"
+    "chintu bulla hero";
+}
+
+.box1 {
+  grid-area: chintu;
+  background: #4F8EEC;
+}
+
+.box2 {
+  grid-area: bulla;
+  background: #0A1E3C;
+}
+
+.box3 {
+  grid-area: hero;
+  background: #005C79;
+}
+
+
+@media screen and (width > 1200px) {}
+
+@media screen and (width < 1200px) and (width > 450px) {}
+
+@media screen and (width < 450px) {}
