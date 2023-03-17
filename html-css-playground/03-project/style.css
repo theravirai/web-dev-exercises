@@ -42,6 +42,27 @@ body {
 
 @media screen and (width > 1200px) {}
 
-@media screen and (width < 1200px) and (width > 450px) {}
+@media screen and (width < 1200px) and (width > 450px) {
+  .grid {
+    gap: 16px;
+  }
+}
 
-@media screen and (width < 450px) {}
+@media screen and (width < 450px) {
+  .container{
+    margin: 24px auto;
+  }
+  .grid {
+    gap: 16px;
+    grid-template-areas:
+    "box1"
+    "box1"
+    "box2"
+    "box2"
+    "box2"
+    "box2"
+    "box3"
+    "box3"
+    "box3";
+  }
+}
