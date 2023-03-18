@@ -1,3 +1,9 @@
+:root{
+  --body: #A70000;
+  --nav: #5E0808;
+  --red: #ff0000;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +11,42 @@
 }
 
 body {
-  background-color: #A70000;
+  background-color: var(--body);
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+nav {
+  background-color: var(--nav);
+  min-height: 93px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.left_nav {
+  display: flex;
+  max-width: 488px;
+}
+
+.logo {
+background: var(--red);
+height: 40px;
+}
+
+.link {
+  background: var(--red);
+  height: 40px;
+}
+
+.avatar {
+  background: var(--red);
+  height: 40px;
+}
 
 
 @media screen and (width > 1200px) {}
