@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7ADFFF;
+}
+
+
+
+
+@media screen and (width > 1200px) {}
+
+@media screen and (width < 1200px) and (width > 450px) {}
+
+@media screen and (width < 450px) {}
