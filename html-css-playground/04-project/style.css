@@ -1,7 +1,8 @@
 :root{
   --body: #A70000;
-  --nav: #5E0808;
+  --brown: #5E0808;
   --red: #ff0000;
+  --card: #ffd8d8;
 }
 
 * {
@@ -17,35 +18,62 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  
 }
 
 nav {
-  background-color: var(--nav);
-  min-height: 93px;
+  background-color: var(--brown);
 }
 
 .navigation {
   display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 93px;
 }
 
 .left_nav {
   display: flex;
   max-width: 488px;
+  height: 100%;
+  width: 100%;
+  gap: 8px;
+  align-items: center;
 }
 
 .logo {
 background: var(--red);
 height: 40px;
+min-width: 160px;
 }
 
 .link {
   background: var(--red);
   height: 40px;
+  width: 100%;
 }
 
 .avatar {
   background: var(--red);
-  height: 40px;
+  height: 64px;
+  width: 64px;
+  border-radius: 100%;
+}
+
+
+/* Card Styling */
+.card {
+  background-color: var(--card);
+  padding: 24px;
+}
+
+.circle {
+  background-color: var(--red);
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+
 }
 
 
