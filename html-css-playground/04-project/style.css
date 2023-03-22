@@ -18,6 +18,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 36px 16px;
   
 }
 
@@ -99,9 +100,28 @@ main{
   width: 100%;
 }
 
+/* Big Display */
+@media screen and (width > 1200px) {
+  
+}
 
-@media screen and (width > 1200px) {}
+/* Tablet */
+@media screen and (width < 1200px) and (width > 450px) {
 
-@media screen and (width < 1200px) and (width > 450px) {}
+}
 
-@media screen and (width < 450px) {}
+/* Phone */
+@media screen and (width < 450px) {
+  .logo {
+    background: var(--red);
+    height: 40px;
+    min-width: 70px;
+  }
+  .avatar {
+    height: 48px;
+    width: 48px;
+  }
+  .left_nav {
+    max-width: 266px;
+  }
+}
