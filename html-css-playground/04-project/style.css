@@ -1,4 +1,4 @@
-:root{
+:root {
   --body: #A70000;
   --brown: #5E0808;
   --red: #ff0000;
@@ -19,7 +19,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 36px 16px;
-  
+
 }
 
 nav {
@@ -44,9 +44,9 @@ nav {
 }
 
 .logo {
-background: var(--red);
-height: 40px;
-min-width: 160px;
+  background: var(--red);
+  height: 40px;
+  min-width: 160px;
 }
 
 .link {
@@ -63,7 +63,7 @@ min-width: 160px;
 }
 
 
-main{
+main {
   padding-top: 36px;
   display: flex;
   flex-direction: column;
@@ -101,14 +101,10 @@ main{
 }
 
 /* Big Display */
-@media screen and (width > 1200px) {
-  
-}
+@media screen and (width > 1200px) {}
 
 /* Tablet */
-@media screen and (width < 1200px) and (width > 450px) {
-
-}
+@media screen and (width < 1200px) and (width > 450px) {}
 
 /* Phone */
 @media screen and (width < 450px) {
@@ -117,10 +113,12 @@ main{
     height: 40px;
     min-width: 70px;
   }
+
   .avatar {
     height: 48px;
     width: 48px;
   }
+
   .left_nav {
     max-width: 266px;
   }
