@@ -1,38 +1,53 @@
-
-.glyphicon{
-	font-size: 30px;
-	color:#61122F; 
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.center{
-	width: 90%;
-	background-color: grey;
+.glyphicon {
+    font-size: 30px;
+    color: #61122F;
+}
 
+.center {
+    width: 90%;
+    background-color: grey;
 }
-h2{
-	text-align: center;
+
+h2 {
+    text-align: center;
 }
+
 #myNavbar ul li a {
-	color: #61122F;
-}
-.navbar-brand{
-font-size: 30px;	
-}
-.container
-{
-	background-color: grey;
-}
-.text-center{
-	font-size: 35px;
-}
-.navbar{
-	border: none;
-	background-color: #527CD0;
-	color: #61122F;
+    color: #61122F;
+    text-align: center;
+    width: 100%;
+    display: block;
 }
 
-body{
-	background-color: #61122F;
-	color: white;
+.navbar-brand {
+    font-size: 30px;
 }
 
+.container {
+    background-color: grey;
+}
+
+.text-center {
+    font-size: 35px;
+    text-align: center;
+}
+
+.navbar {
+    border: none;
+    background-color: #527CD0;
+    color: #61122F;
+}
+
+body {
+    background-color: #61122F;
+    color: white;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
