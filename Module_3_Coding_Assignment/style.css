@@ -33,7 +33,7 @@ h2 {
 }
 
 .text-center {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -50,4 +50,21 @@ body {
 
 .navbar-collapse {
     text-align: center;
+}
+
+/* Add styles for menu items */
+#myNavbar ul li {
+    border: 2.0px solid #000000;
+    background-color: #027c63;
+}
+
+#myNavbar ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#myNavbar ul li a:hover {
+    background-color: #61122F;
 }
